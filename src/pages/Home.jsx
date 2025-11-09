@@ -16,7 +16,7 @@ export const Home = () => {
       {/* KEY CHANGE: Add 'relative' to make it the positioning context for StarBackground */}
       <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden"> 
         
-        {/* <ThemeToggle /> */}
+        <ThemeToggle />
         
         {/* The StarBackground (now the Grid Background) */}
         <StarBackground /> 
