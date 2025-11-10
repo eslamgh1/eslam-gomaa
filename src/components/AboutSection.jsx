@@ -20,22 +20,15 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-              Tech Stack: MERN Stack (MongoDB, Express, React.js, Node.js) |
-              RESTful APIs | MySQL
+              Full-Stack Web Developer | MERN Stack | MongoDB, Express, NestJS, React.js, Node.js | Building Scalable Web Applications | Digital Solutions Business Development Executive
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 Get in touch
               </a>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                Get in touch
-              </a>
               <a
-                href=""
+                href="/projects/eslam-gomaa-cv.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -51,8 +44,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
-                    Paragrapgh Development Web Development Web DevelopmentWeb
-                    Development
+                    Full-Stack expert specializing in high-performance MERN and Nest.js applications.
                   </p>
                 </div>
               </div>
@@ -63,10 +55,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
+                  <h4 className="font-semibold text-lg">MERN stack</h4>
                   <p className="text-muted-foreground">
-                    Paragrapgh Development Web Development Web DevelopmentWeb
-                    Development
+                    Architecting the high-performance digital solutions that drive your business development forward.
                   </p>
                 </div>
               </div>
@@ -77,10 +68,9 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
+                  <h4 className="font-semibold text-lg">Digital Solutions & Business Development Executive</h4>
                   <p className="text-muted-foreground">
-                    Paragrapgh Development Web Development Web DevelopmentWeb
-                    Development
+                    Business Development Executive focused on leveraging technology to drive revenue and secure strategic growth
                   </p>
                 </div>
               </div>
