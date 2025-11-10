@@ -12,7 +12,7 @@ const navItems = [
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">PedroTech </span>
+            <span className="text-glow text-foreground"> Eslam Gomaa </span>
             Portfolio
           </span>
         </a>
