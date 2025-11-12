@@ -4,7 +4,7 @@ const projects = [
     {
         id: 1,
         title: "E-Commerce Website",
-        description: "1-Built with React 18. 2-Styled with Tailwind CSS. 3-Utilized React Router for seamless navigation and routing. 4-Integrated React Query for efficient data fetching and state management. 5-Implemented Context API for managing global state, such as authentication and cart data. 6-Added offline detection to ensure a smooth experience.",
+        description: "This application is built with React 18 and styled using Tailwind CSS. It features React Router for navigation, React Query for efficient data fetching, and the Context API for managing global state (like authentication and cart data), all while ensuring a smooth experience with offline detection.    ",
         image: "/projects/freshcart.png",
         tags: ["React", "Tailwind CSS"],
         demoUrl: "https://freshcart-lovat.vercel.app/",
@@ -13,7 +13,7 @@ const projects = [
     {
         id: 2,
         title: "Note App",  
-        description: "Modern Notes App – Built with React 19 & Tailwind CSS. This project showcases my ability to integrate modern frontend tools for a seamless user experience. Create, edit, and delete notes with a clean UI-Persistent state using Zustand for lightweight state management",
+        description: "Modern Notes App – Built with React 19 and Tailwind CSS, this project demonstrates my ability to integrate modern frontend tools for a seamless user experience. It allows users to create, edit, and delete notes through a clean UI, with persistent state managed efficiently using Zustand.",
         image: "/projects/noteapp.png",
         tags: ["React", "Tailwind CSS"],
         demoUrl: "https://note-app-react-2025.vercel.app/",
@@ -21,8 +21,8 @@ const projects = [
     },
     {
         id: 3,
-        title: "Project 1",
-        description: "This is project using vanilla JavaScript to create a Bookmark Manager, This project is showcasing the ability to build functional applications from scratch- local Storage to persist bookmark data across sessions- dynamic table to display bookmarks with options to visit or delete them. using SweetAlert2",
+        title: "Bookmark Manager",
+        description: "This project uses vanilla JavaScript to create a Bookmark Manager. It demonstrates the ability to build a functional application from scratch, using local storage to save bookmarks across sessions and a dynamic table to display, visit, or delete bookmarks. SweetAlert2 is used for user-friendly alerts",
         image: "/projects/bookmark.png",
         tags: ["HTML", "JavaScript", "CSS"],
         demoUrl: "https://eslamgh1.github.io/JS-Task-3/",
@@ -39,7 +39,7 @@ export const ProjectsSection = () => {
 
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     {" "}
-                    Featured<span className="text-primary">Projects</span>
+                    Featured <span className="text-primary"> Projects</span>
                 </h2>
 
                 <p className="text-center text-muted-forground mb-12 max-w-xl mx-auto">
