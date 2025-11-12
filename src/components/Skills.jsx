@@ -4,22 +4,28 @@ import { useState } from "react";
 
 const skills = [
     // 1
-    { name: "HTML/CSS", level: "50", category: "Frontend" },
+    { name: "HTML/CSS", level: "95", category: "Frontend" },
     { name: "JavaScript", level: "95", category: "Frontend" },
-    { name: "React", level: "25", category: "Frontend" },
+    { name: "React", level: "95", category: "Frontend" },
+    { name: "Tailwind CSS", level: "95", category: "Frontend" },
+    { name: "Next.js", level: "95", category: "Frontend" },
+    { name: "Bootstrap", level: "95", category: "Frontend" },
 
-    // 1
-    { name: "Nest", level: "50", category: "Backend" },
-    { name: "Nest", level: "95", category: "Backend" },
-    { name: "Nest", level: "20", category: "Backend" },
-    // 1
+    // 2
+    { name: "Nest.js", level: "95", category: "Backend" },
+    { name: "Express.js", level: "95", category: "Backend" },
+    { name: " MongoDB", level: "95", category: "Backend" },
+    { name: "Mongoose", level: "90", category: "Backend" },
+    { name: " MySQL", level: "95", category: "Backend" },
+    { name: " Sequelize", level: "95", category: "Backend" },
+    // 3
     { name: "Git", level: "95", category: "Tools" },
-    { name: "GitHub", level: "70", category: "Tools" },
-    { name: "Gira", level: "95", category: "Tools" },
-    // 1
-    { name: "Nest", level: "65", category: "Tools" },
-    { name: "Nest", level: "40", category: "Tools" },
-    { name: "Nest", level: "95", category: "Tools" },
+    { name: "GitHub", level: "95", category: "Tools" },
+    { name: "NPM", level: "95", category: "Tools" },
+    // 4
+    { name: "RESTful APIs", level: "95", category: "Tools" },
+    { name: "GraphQL", level: "95", category: "Tools" },
+    { name: "Fetch API", level: "95", category: "Tools" },
 
 ]
 
@@ -70,9 +76,9 @@ export const SkillsSection = () => {
                                     style={{ width: `${skill.level}%` }}
                                 />
                             </div>
-                            <div className="text-right mt-1">
+                            {/* <div className="text-right mt-1">
                                 <span className="text-xs text-muted-foreground">{skill.level}%</span>
-                            </div>
+                            </div> */}
                         </div>
                     ))}
 

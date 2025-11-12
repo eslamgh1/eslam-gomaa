@@ -1,6 +1,6 @@
 
 
-import { Mail, Phone, MapPin, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Send, MessageCircle } from "lucide-react";
 import { cn } from "../lib/utils";
 
 // const [isSubmitting, setIsSubmitting] = useState(false);
@@ -23,7 +23,7 @@ export const ContactSection = () => {
                     Git in <span className="text-primary">Touch</span>
                 </h2>
                 <p className="text-center text-muted-forground mb-12 max-w-xl mx-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, impedit? Corrupti placeat quaerat debitis hic ad voluptatibus. Aperiam, obcaecati asperiores?
+                    I look forward to hearing from you. Please reach out via the information below.
                 </p>
 
                 {/* first col : Contact Information */}
@@ -41,8 +41,9 @@ export const ContactSection = () => {
                                     <a
                                         href="mailto:example@gmail.com"
                                         className="text-muted-forground hover:text-primary transition-colors duration-300">
-                                        example@gmail.com</a>
+                                        eslamgomaah@gmail.com</a>
                                 </div>
+
                             </div>
                         </div>
                         <div className="space-y-6">
@@ -58,6 +59,29 @@ export const ContactSection = () => {
                                         +201005463058</a>
                                 </div>
                             </div>
+
+
+                            {/* START of NEW WhatsApp Contact Block */}
+                            <div className="space-y-6">
+                                <div className="flex items-center justify-center gap-4 ">
+                                    <div className="p-3 rounded-full bg-primary/10">
+                                        {/* Using MessageCircle from lucide-react as the icon */}
+                                        <MessageCircle className="h-6 w-6 text-primary" />
+                                    </div>
+                                    <div>
+                                        <h4 className="font-medium">WhatsApp</h4>
+                                        <a
+                                            // Re-using your phone number: +201005463058
+                                            href="https://wa.me/201005463058"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-muted-forground hover:text-primary transition-colors duration-300">
+                                            +201005463058</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* END of NEW WhatsApp Contact Block */}
+
                         </div>
                         <div className="space-y-6">
                             <div className="flex items-center justify-center gap-4">
@@ -78,7 +102,10 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h3 className="font-medium mb-4">Connect With Me</h3>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank">
+                                <a href="https://www.linkedin.com/in/eslam-gomaa-hamed-b8035188/" target="_blank">
+                                    <Linkedin />
+                                </a>
+                                {/* <a href="#" target="_blank">
                                     <Linkedin />
                                 </a>
                                 <a href="#" target="_blank">
@@ -86,14 +113,13 @@ export const ContactSection = () => {
                                 </a>
                                 <a href="#" target="_blank">
                                     <Linkedin />
-                                </a>
-                                <a href="#" target="_blank">
-                                    <Linkedin />
-                                </a>
+                                </a> */}
 
                             </div>
                         </div>
                     </div>
+
+
 
                     {/* second col : Contact Form */}
                     {/* 
