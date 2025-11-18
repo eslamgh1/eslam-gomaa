@@ -1,4 +1,4 @@
-import { ExternalLink, Github ,ArrowRight } from "lucide-react";
+import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
     {
@@ -12,7 +12,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Note App",  
+        title: "Note App",
         description: "Modern Notes App – Built with React 19 and Tailwind CSS, this project demonstrates my ability to integrate modern frontend tools for a seamless user experience. It allows users to create, edit, and delete notes through a clean UI, with persistent state managed efficiently using Zustand.",
         image: "/projects/noteapp.png",
         tags: ["React", "Tailwind CSS"],
@@ -27,7 +27,35 @@ const projects = [
         tags: ["HTML", "JavaScript", "CSS"],
         demoUrl: "https://eslamgh1.github.io/JS-Task-3/",
         gitHubUrl: "https://github.com/eslamgh1/JS-Task-3",
-    }
+    },
+    {
+        id: 4,
+        title: "Responsive Design Showcase Bootstrap",
+        description: "This project is a modern, responsive single-page website template, fully developed using the Bootstrap library  to ensure a mobile-first layout that adapts seamlessly across all device sizes for showcasing creative work.",
+        image: "/projects/Bootsrap-website.png",
+        tags: ["HTML", "Bootstrap", "CSS"],
+        demoUrl: "https://eslamgh1.github.io/Bootstrap-project",
+        gitHubUrl: "https://github.com/eslamgh1/Bootstrap-project",
+    },
+    {
+        id: 5,
+        title: "Note App was Built with the React",
+        description: "This Note App was bulit by React.19 using Tailwind for aesthetics, Vite for rapid development, and a strong set of tools (React Hook Form, Axios, React Router) for robust routing, data fetching, and form management. ",
+        image: "/projects/note-app-2.png",
+        tags: ["React", "Tailwind CSS"],
+        demoUrl: "https://go-note-vert.vercel.app/login",
+        gitHubUrl: "https://github.com/eslamgh1/Go-Note",
+    },
+    {
+        id: 6,
+        title: "Real-Time Weather Viewer",
+        description: "This project was built from scratch using HTML, CSS, and pure JavaScript to demonstrate modern API integration and front-end development skill, Simply type in a city name and hit search to get up-to-the-minute weather conditions.",
+        image: "/projects/weather-app.png",
+        tags: ["HTML", "JavaScript", "CSS"],
+        demoUrl: "https://eslamgh1.github.io/Simple-weather-App",
+        gitHubUrl: "https://github.com/eslamgh1/Simple-weather-App",
+    },
+
 ]
 
 
@@ -72,18 +100,18 @@ export const ProjectsSection = () => {
                             <p className="text-muted-forground text-sm mb-4">{project.description}</p>
                             <div className="flex justify-between items-center">
                                 <div className="flex space-x-3">
-                                    <a 
-                                    href={project.demoUrl} 
-                                    target="_blank" 
-                                    className="text-forground/80 transition colors duration-300">
+                                    <a
+                                        href={project.demoUrl}
+                                        target="_blank"
+                                        className="text-forground/80 transition colors duration-300">
                                         <ExternalLink size={20} />
                                     </a>
 
-                                    <a 
-                                    href={project.gitHubUrl} 
-                                    target="_blank" 
-                                    className="text-forground/80 transition colors duration-300">
-                                    <Github size={20} />
+                                    <a
+                                        href={project.gitHubUrl}
+                                        target="_blank"
+                                        className="text-forground/80 transition colors duration-300">
+                                        <Github size={20} />
                                     </a>
                                 </div>
                             </div>
@@ -91,7 +119,7 @@ export const ProjectsSection = () => {
                     ))}
                 </div>
                 <div className="flex flex-col items-center justify-center text-center mt-12 ">
- 
+
                     <a
                         className="cosmic-button w-fit flex items-center mx-auto gap-2"
                         href="https://github.com/"
@@ -99,7 +127,7 @@ export const ProjectsSection = () => {
                     >
                         Check my GitHub <ArrowRight size={16} />
                     </a>
-     
+
                 </div>
 
             </div>}
