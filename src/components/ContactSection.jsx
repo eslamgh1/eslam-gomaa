@@ -20,7 +20,7 @@ export const ContactSection = () => {
             className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl ">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                    Git in <span className="text-primary">Touch</span>
+                    Get in <span className="text-primary">Touch</span>
                 </h2>
                 <p className="text-center text-muted-forground mb-12 max-w-xl mx-auto">
                     I look forward to hearing from you. Please reach out via the information below.
