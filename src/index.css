@@ -160,3 +160,19 @@
   padding: 0;
   text-align: center;
 }
+
+
+/* Must be in your global CSS file (e.g., globals.css) */
+.no-scroll {
+  /* Hides scrollbar and locks layout */
+  overflow: hidden !important; 
+  
+  /* CRITICAL: Allows us to use document.body.style.top = '-Xpx' */
+  position: fixed; 
+  width: 100%;
+  height: 100%;
+}
+
+html.no-scroll {
+  overflow: hidden !important;
+}
