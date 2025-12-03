@@ -14,27 +14,26 @@ export const Home = () => {
   return (
     <>
       {/* KEY CHANGE: Add 'relative' to make it the positioning context for StarBackground */}
-      <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden"> 
-        
-        <ThemeToggle />
-        
+      <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden">
+        {/* <ThemeToggle /> */}
+
         {/* The StarBackground (now the Grid Background) */}
-        <StarBackground /> 
-        
+        <StarBackground />
+
         {/* All content must have a higher z-index (z-10, z-20, etc.) to sit on top */}
-        <div className="relative z-10"> 
+        <div className="relative z-10">
           <Navbar />
-          
+
           {/* Main Content */}
           <main>
-            <HeroSection/>
-            <AboutSection/>
-            <ProjectsSection/>
-            <SkillsSection/>
-            <ContactSection/>
+            <HeroSection />
+            <AboutSection />
+            <ProjectsSection />
+            <SkillsSection />
+            <ContactSection />
           </main>
-          
-          <Footer/>
+
+          <Footer />
         </div>
       </div>
     </>
