@@ -22,7 +22,7 @@ export const NotFound = () => {
       
       {/* Call to Action (CTA) */}
       <Link
-        to="#hero" // Link back to the home page
+        to="/" // Link back to the home page
         className="mt-6 inline-block px-6 py-3 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow transition duration-200 ease-in-out transform hover:scale-105"
       >
         Go Home
