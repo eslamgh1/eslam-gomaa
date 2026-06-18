@@ -9,20 +9,23 @@ export const AboutSection = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Left side - title and description */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Full-Stack Developer and MBA Marketer
+              Technical Business Development Manager | MBA | Full-Stack Developer
             </h3>
 
             <p className="text-muted-foreground">
-              Creating responsive, high-performance websites that drive engagement and business growth.
+              Business Development Manager with an MBA in Marketing and 7+ years of sales leadership
+              experience
             </p>
 
             <p className="text-muted-foreground">
-             Full-Stack Web Developer | MERN & NestJS Stack
+              Full-Stack Web Developer | MERN & NestJS Stack
             </p>
             <p className="text-muted-foreground">
-             MongoDB, Express, NestJS, React.js, Node.js | Building Scalable Web Applications | Digital Solutions & Business Development Executive
+              Steered sales operations and business development, driving revenue growth and
+              corporate market share | Building Scalable Web Applications | Digital Solutions & Business Development Executive
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -37,15 +40,41 @@ export const AboutSection = () => {
               </a>
             </div>
           </div>
+          {/* Right side - skills and experience */}
           <div className="grid grid-cols-1 gap-6">
+            {/* Sales supervisor */}
+            <div className="gradient-border p-6 card-hover">
+
+              <div className="gradient-border p-6 card-hover">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-full bg-primary/10">
+                    <User className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="text-left">
+                    <h4 className="font-semibold text-lg pb-3">Sales supervisor | "WE" Telecom Egypt Company
+                      July 2018- Present</h4>
+                    <p className="text-muted-foreground pb-3">
+                      -Analyzing data to increase sales, generating reports and
+                      managing branch operations by using Excel, Power BI.
+                    </p>
+                    <p className="text-muted-foreground">
+                      -Managing a team of employees, providing guidance and
+                      conducting performance evaluations
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            {/* Full-Stack Web Developer */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg pb-3">Full-Stack Web Developer Trainee | “Route” September 2024 - November 2025
-</h4>
+                  <h4 className="font-semibold text-lg pb-3">Full-Stack Web Developer – Route (Professional Program) | 2024 – 2025
+                  </h4>
                   <p className="text-muted-foreground pb-3">
                     -Full-stack developer skilled in building fast MERN and Nest.js applications.
                   </p>
@@ -56,25 +85,7 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg pb-3">Sales supervisor | "WE" Telecom Egypt Company
-                    July 2018- Present</h4>
-                  <p className="text-muted-foreground pb-3">
-                    -Analyzing data to increase sales, generating reports and
-                    managing branch operations by using Excel, Power BI.
-                  </p>
-                  <p className="text-muted-foreground">
-                    -Managing a team of employees, providing guidance and
-                    conducting performance evaluations
-                  </p>
-                </div>
-              </div>
-            </div>
+            {/* Education */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
