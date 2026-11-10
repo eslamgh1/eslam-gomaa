@@ -11,21 +11,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left side - title and description */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
-              Technical Business Development Manager | MBA | Full-Stack Developer
+  <h3 className="text-2xl font-semibold">
+              E-Commerce Specialist & Full-Stack Developer | MBA
             </h3>
 
             <p className="text-muted-foreground">
-              Business Development Manager with an MBA in Marketing and 7+ years of sales leadership
-              experience
+              Results-driven E-Commerce Specialist with an MBA in Marketing and 15+ years of sales leadership and digital operations experience. Proven expertise in optimizing online conversion funnels, managing end-to-end user journeys, and bridging business strategy with full-stack web technologies (React/Next.js platforms) to maximize revenue and digital store growth.
             </p>
 
             <p className="text-muted-foreground">
-              Full-Stack Web Developer | MERN & NestJS Stack
+              MERN Stack & NestJS Specialist
             </p>
             <p className="text-muted-foreground">
-              Steered sales operations and business development, driving revenue growth and
-              corporate market share | Building Scalable Web Applications | Digital Solutions & Business Development Executive
+              Steered sales operations and business development, driving corporate market share through scalable web applications and data-driven digital solutions.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -42,6 +40,45 @@ export const AboutSection = () => {
           </div>
           {/* Right side - skills and experience */}
           <div className="grid grid-cols-1 gap-6">
+
+            {/* Full-Stack Web Developer */}
+            {/* E-Commerce & Digital Solutions (Freelance) */}
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg pb-3">
+                    E-Commerce & Digital Solutions Developer | Freelance (2024 – Present)
+                  </h4>
+                  <p className="text-muted-foreground pb-3">
+                    -Architected full-stack e-commerce and digital reservation platform with interactive booking and payment workflows.
+                  </p>
+                  <h2 className="text-muted-foreground">
+                    -Tech Stack & Focus: MERN Stack, Next.js, React, Node.js, Technical SEO, GA4 Tracking & CRO
+                  </h2>
+                </div>
+              </div>
+            </div>
+            {/* <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg pb-3">Full-Stack Web Developer – Route (Professional Program) | 2024 – 2025
+                  </h4>
+                  <p className="text-muted-foreground pb-3">
+                    -Full-stack developer skilled in building fast MERN and Nest.js applications.
+                  </p>
+                  <h2 className="text-muted-foreground">
+                    -Tech Stack: MERN Stack MongoDB, Express, React.js, Node.js
+                    | Nest.js | GraphQL | RESTful APIs | MySQL
+                  </h2>
+                </div>
+              </div>
+            </div> */}
             {/* Sales supervisor */}
             <div className="gradient-border p-6 card-hover">
 
@@ -66,25 +103,7 @@ export const AboutSection = () => {
               </div>
 
             </div>
-            {/* Full-Stack Web Developer */}
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg pb-3">Full-Stack Web Developer – Route (Professional Program) | 2024 – 2025
-                  </h4>
-                  <p className="text-muted-foreground pb-3">
-                    -Full-stack developer skilled in building fast MERN and Nest.js applications.
-                  </p>
-                  <h2 className="text-muted-foreground">
-                    -Tech Stack: MERN Stack MongoDB, Express, React.js, Node.js
-                    | Nest.js | GraphQL | RESTful APIs | MySQL
-                  </h2>
-                </div>
-              </div>
-            </div>
+
             {/* Education */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">

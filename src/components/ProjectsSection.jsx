@@ -12,6 +12,15 @@ const projects = [
     },
     {
         id: 2,
+        title: "Timofit - Gym Management & Fitness Platform",
+        description: "A full-stack gym management web application built with modern web technologies to streamline member profiles, interactive fitness class bookings, digital subscriptions, and seamless payment workflows with a sleek dark-themed UI.",
+        image: "/projects/gym1.png",
+        tags: ["Next.js", "React", "Tailwind CSS", "Node.js", "MongoDB"],
+        demoUrl: "https://timofit.vercel.app",
+        gitHubUrl: "https://github.com/eslamgh1/timofit",
+    },
+    {
+        id: 3,
         title: "E-Commerce Website",
         description: "This application is built with React 18 and styled using Tailwind CSS. It features React Router for navigation, React Query for efficient data fetching, and the Context API for managing global state (like authentication and cart data), all while ensuring a smooth experience with offline detection.    ",
         image: "/projects/freshcart.png",
@@ -20,7 +29,7 @@ const projects = [
         gitHubUrl: "https://github.com/eslamgh1/Freshcart",
     },
     {
-        id: 3,
+        id: 4,
         title: "Note App",
         description: "Modern Notes App – Built with React 19 and Tailwind CSS, this project demonstrates my ability to integrate modern frontend tools for a seamless user experience. It allows users to create, edit, and delete notes through a clean UI, with persistent state managed efficiently using Zustand.",
         image: "/projects/noteapp.png",
@@ -29,7 +38,7 @@ const projects = [
         gitHubUrl: "https://github.com/eslamgh1/Note-App-React-2025",
     },
     {
-        id: 4,
+        id: 5,
         title: "Bookmark Manager",
         description: "This project uses vanilla JavaScript to create a Bookmark Manager. It demonstrates the ability to build a functional application from scratch, using local storage to save bookmarks across sessions and a dynamic table to display, visit, or delete bookmarks. SweetAlert2 is used for user-friendly alerts",
         image: "/projects/bookmark.png",
@@ -38,7 +47,7 @@ const projects = [
         gitHubUrl: "https://github.com/eslamgh1/JS-Task-3",
     },
     {
-        id: 5,
+        id: 6,
         title: "Responsive Design Showcase Bootstrap",
         description: "This project is a modern, responsive single-page website template, fully developed using the Bootstrap library  to ensure a mobile-first layout that adapts seamlessly across all device sizes for showcasing creative work.",
         image: "/projects/Bootsrap-website.png",
@@ -47,7 +56,7 @@ const projects = [
         gitHubUrl: "https://github.com/eslamgh1/Bootstrap-project",
     },
     {
-        id: 6,
+        id: 7,
         title: "Note App was Built with the React",
         description: "This Note App was bulit by React.19 using Tailwind for aesthetics, Vite for rapid development, and a strong set of tools (React Hook Form, Axios, React Router) for robust routing, data fetching, and form management. ",
         image: "/projects/note-app-2.png",
@@ -56,14 +65,14 @@ const projects = [
         gitHubUrl: "https://github.com/eslamgh1/Go-Note",
     },
     {
-        id: 7,
+        id: 8,
         title: "Real-Time Weather Viewer",
         description: "This project was built from scratch using HTML, CSS, and pure JavaScript to demonstrate modern API integration and front-end development skill, Simply type in a city name and hit search to get up-to-the-minute weather conditions.",
         image: "/projects/weather-app.png",
         tags: ["HTML", "JavaScript", "CSS"],
         demoUrl: "https://eslamgh1.github.io/Simple-weather-App",
         gitHubUrl: "https://github.com/eslamgh1/Simple-weather-App",
-    },
+    }
 
 ]
 

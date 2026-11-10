@@ -19,6 +19,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl max-auto opacity-0 animate-fade-in-delay-3">
+            E-Commerce Specialist | Digital Solutions & Operations | MBA
+            <br />
             Business Development Executive | Full-Stack Web Developer | MERN Stack | React.js, Node.js, NestJs, Express, MongoDB |
             Building Scalable Web Applications | Digital Solutions
           </p>
